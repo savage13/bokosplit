@@ -1,11 +1,11 @@
 [package]
-name = "ls"
+name = "boko_timer"
 version = "0.1.0"
 edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-livesplit-core = { version = "0.12.0", features = ["software-rendering"] }
 eframe = "0.20.1"
-livesplit-hotkey = "0.6.0"
+rfd = "0.10"
+livesplit-core = { version = "0.12.0", features = ["software-rendering"] }
